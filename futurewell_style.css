@@ -4,11 +4,11 @@ body {
     margin: 0;
     padding: 0;
     background: #1a1a1a;
-    color: #ffffff;
+    color: #fff;
 }
 .header {
-    background: #111111;
-    padding: 10px 20px;
+    background: #111;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,13 +24,30 @@ nav ul {
     gap: 15px;
 }
 nav ul li a {
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
 }
-.section {
-    padding: 40px 20px;
+.hero {
     text-align: center;
-    border-bottom: 1px solid #333;
+    padding: 100px;
+    background: linear-gradient(#222, #111);
+}
+.hero h1 {
+    font-size: 36px;
+    color: #00d1ff;
+}
+.hero .button {
+    background: #00d1ff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.section {
+    padding: 50px 20px;
+    text-align: center;
 }
 .grid {
     display: grid;
@@ -44,25 +61,12 @@ nav ul li a {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    max-width: 400px;
-    margin: 0 auto;
-}
-form input, form textarea, form button {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-}
-form button {
-    background-color: #00d1ff;
-    color: #fff;
-    cursor: pointer;
+.card img {
+    width: 100%;
+    border-radius: 8px;
 }
 footer {
     text-align: center;
-    padding: 10px 20px;
-    background: #111111;
+    padding: 20px;
+    background: #111;
 }
